@@ -4,7 +4,10 @@
 
 using namespace std;
 
+
 int main() {
+    cout << " *YILAN OYUNUNA HOSGELDINIZ*" << endl;
+    cout << "Baslamak icin W,A,S,D tuslarini kullanin"<< endl;
     int satir = 1, sutun = 1;
     int s_yem = 1, d_yem = 1;
     int yem_sayaci = 0;
@@ -83,8 +86,10 @@ int main() {
         tahta[satir][sutun] = 'X';
         tahta[s_yem][d_yem] = '*';
         system("cls");
-        cout << " *YILAN OYUNUNA HOSGELDINIZ*" << endl;
-        cout << "WASD TUSLARINI KULLANINIZ!!" << endl;
+        cout << "W,A,S,D TUSLARINI KULLANINIZ!!" << endl;
+        cout << "Oyunu bitirmek icin q tusuna basiniz!" << endl;
+        cout << "Oyunu kazanmak icin 15 kere yemi yemeniz gerekli!" << endl;
+
         cout << "SAYAC: " << yem_sayaci << endl;
     }
     return 0;
